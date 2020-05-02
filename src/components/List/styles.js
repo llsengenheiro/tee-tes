@@ -3,11 +3,10 @@ import styled from 'styled-components';
 export const ProductList = styled.ul`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+  grid-gap: 10px;
   list-style: none;
 
   li {
-    display: flex;
     flex-direction: column;
     background: #fff;
     border-radius: 4px;
@@ -15,7 +14,7 @@ export const ProductList = styled.ul`
 
     img {
       align-self: center;
-      max-width: 250px;
+      max-width: 233px;
     }
   }
 `;

@@ -1,14 +1,14 @@
 import React from 'react';
 import Header from './components/Header';
-import SideBar from './components/SideBar';
-import List from './components/List';
+import ProductList from './components/ProductList';
+import GlobalStyle from './styles/global';
 
 function App() {
   return (
     <>
+      <GlobalStyle />
       <Header />
-      <SideBar />
-      <List />
+      <ProductList />
     </>
   );
 }
