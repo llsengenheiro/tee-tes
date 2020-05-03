@@ -37,8 +37,8 @@ export const Search = styled.div`
       opacity: 1;
       font-size: 16px;
     }
-
-    padding-left: 60px;
+    padding: 10px;
+    padding-left: 50px;
     width: 521px;
     height: 48px;
     background: #f0f5fe;
