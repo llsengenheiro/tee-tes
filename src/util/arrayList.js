@@ -13,100 +13,244 @@ let shirts = [
   {
     path: blueTee,
     color: 'blue',
-    sizes: {
-      xs: true,
-      s: false,
-      m: false,
-      l: true,
-      xl: false,
-      xxl: true,
-    },
+    sizes: [
+      {
+        name: 'XS',
+        avaible: true,
+      },
+      {
+        name: 'S',
+        avaible: false,
+      },
+      {
+        name: 'M',
+        avaible: true,
+      },
+      {
+        name: 'L',
+        avaible: false,
+      },
+      {
+        name: 'XL',
+        avaible: true,
+      },
+      {
+        name: 'XXL',
+        avaible: true,
+      },
+    ],
   },
 
   {
     path: grayTee,
     color: 'gray',
-    sizes: {
-      xs: true,
-      s: false,
-      m: false,
-      l: true,
-      xl: false,
-      xxl: true,
-    },
+    sizes: [
+      {
+        name: 'XS',
+        avaible: true,
+      },
+      {
+        name: 'S',
+        avaible: false,
+      },
+      {
+        name: 'M',
+        avaible: true,
+      },
+      {
+        name: 'L',
+        avaible: false,
+      },
+      {
+        name: 'XL',
+        avaible: true,
+      },
+      {
+        name: 'XXL',
+        avaible: true,
+      },
+    ],
   },
   {
     path: greenTee,
     color: 'green',
-    sizes: {
-      xs: true,
-      s: false,
-      m: false,
-      l: true,
-      xl: false,
-      xxl: true,
-    },
+    sizes: [
+      {
+        name: 'XS',
+        avaible: true,
+      },
+      {
+        name: 'S',
+        avaible: false,
+      },
+      {
+        name: 'M',
+        avaible: true,
+      },
+      {
+        name: 'L',
+        avaible: false,
+      },
+      {
+        name: 'XL',
+        avaible: true,
+      },
+      {
+        name: 'XXL',
+        avaible: true,
+      },
+    ],
   },
   {
     path: orangeTee,
     color: 'orange',
-    sizes: {
-      xs: true,
-      s: false,
-      m: false,
-      l: true,
-      xl: false,
-      xxl: true,
-    },
+    sizes: [
+      {
+        name: 'XS',
+        avaible: true,
+      },
+      {
+        name: 'S',
+        avaible: false,
+      },
+      {
+        name: 'M',
+        avaible: true,
+      },
+      {
+        name: 'L',
+        avaible: false,
+      },
+      {
+        name: 'XL',
+        avaible: true,
+      },
+      {
+        name: 'XXL',
+        avaible: true,
+      },
+    ],
   },
 
   {
     path: purpleTee,
     color: 'purple',
-    sizes: {
-      xs: true,
-      s: false,
-      m: false,
-      l: true,
-      xl: false,
-      xxl: true,
-    },
+    sizes: [
+      {
+        name: 'XS',
+        avaible: true,
+      },
+      {
+        name: 'S',
+        avaible: false,
+      },
+      {
+        name: 'M',
+        avaible: true,
+      },
+      {
+        name: 'L',
+        avaible: false,
+      },
+      {
+        name: 'XL',
+        avaible: true,
+      },
+      {
+        name: 'XXL',
+        avaible: true,
+      },
+    ],
   },
   {
     path: redTee,
     color: 'red',
-    sizes: {
-      xs: true,
-      s: false,
-      m: false,
-      l: true,
-      xl: false,
-      xxl: true,
-    },
+    sizes: [
+      {
+        name: 'XS',
+        avaible: true,
+      },
+      {
+        name: 'S',
+        avaible: false,
+      },
+      {
+        name: 'M',
+        avaible: true,
+      },
+      {
+        name: 'L',
+        avaible: false,
+      },
+      {
+        name: 'XL',
+        avaible: true,
+      },
+      {
+        name: 'XXL',
+        avaible: true,
+      },
+    ],
   },
   {
     path: whiteTee,
     color: 'white',
-    sizes: {
-      xs: true,
-      s: false,
-      m: false,
-      l: true,
-      xl: false,
-      xxl: true,
-    },
+    sizes: [
+      {
+        name: 'XS',
+        avaible: true,
+      },
+      {
+        name: 'S',
+        avaible: false,
+      },
+      {
+        name: 'M',
+        avaible: true,
+      },
+      {
+        name: 'L',
+        avaible: false,
+      },
+      {
+        name: 'XL',
+        avaible: true,
+      },
+      {
+        name: 'XXL',
+        avaible: true,
+      },
+    ],
   },
   {
     path: yellowTee,
     color: 'yellow',
-    sizes: {
-      xs: true,
-      s: false,
-      m: false,
-      l: true,
-      xl: false,
-      xxl: true,
-    },
+    sizes: [
+      {
+        name: 'XS',
+        avaible: true,
+      },
+      {
+        name: 'S',
+        avaible: false,
+      },
+      {
+        name: 'M',
+        avaible: true,
+      },
+      {
+        name: 'L',
+        avaible: false,
+      },
+      {
+        name: 'XL',
+        avaible: true,
+      },
+      {
+        name: 'XXL',
+        avaible: true,
+      },
+    ],
   },
 ];
 export default shirts;

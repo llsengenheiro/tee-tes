@@ -10,20 +10,19 @@ export default createGlobalStyle`
 
 
 }
-body{
-    -webkit-font-smoothing: antialiased;
+body, html, #root{
+   -webkit-font-smoothing: antialiased;
+    max-width:1100px;
+    margin:0 auto;
+    padding: 0 20px 50px;
+
 
 }
 
 body,input,button{
     font:14px Cabin sans-serif;
 }
-#root{
-    max-width:1100px;
-    margin:0 auto;
-    padding: 0 20px 50px;
 
-}
 
 button{
     cursor: pointer;
